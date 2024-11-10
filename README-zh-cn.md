@@ -18,9 +18,14 @@ vllm类是用vllm离线调用实现的。
 
 
 结果：
+
 统计了原始RULER仓库中hf framework的结果，以及vllm类，vllm_quest类（False）的结果
+
 模型:llama3-8b-instruct-262k 
+
 seq_length: 131072
+
 其他超参数和RULER仓库默认设置相同
+
 每个task选用前100个sample
 
