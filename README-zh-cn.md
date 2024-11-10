@@ -29,3 +29,9 @@ seq_length: 131072
 
 每个task选用前100个sample
 
+|	| budget_size | chunk_size | niah_multikey_1 | niah_multikey_2 | niah_multikey_3	| niah_single_1	| niah_single_2	| niah_single_3	| cwe	| fwe	| niah_multiquery	| niah_multivalue	| qa_1	| qa_2 |	vt	| avg |
+| ------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| base_quest_false |	/	| /	| 95.43	| 97.71	| 91.36	| 100	| 100	| 97.61	| 80.12	| 96.67	| 98.71	| 100	| 99 | 98	| 97 | 96.27 |
+| base_vllm	| /	| /	| 87.71	| 90.29	| 74.89	| 87.71	| 84.86	| 86.36	| 64.92	| 89.33	| 70.14	| 79.43	| 98 | 96 | 89.4 | 84.54 |
+| base_hf	| /	| /	| 98.4 | 98.2	| 67.4 | 100 | 99.8	| 99.8 | 0.76	| 70.8 | 91.6	| 89.1 | 40	| 23 | 81.04 | 73.83 |
+
