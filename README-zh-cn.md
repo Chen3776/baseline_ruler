@@ -2,7 +2,7 @@
 
 测试vllm_quest类，vllm类的运行结果。
 
-其中，vllm_quest类可以选择启用或禁用quest方法，禁用quest方法时相当于一个重新用Pytorch实现了后台attention计算的vllm离线调用。
+其中，vllm_quest类可以选择启用或禁用quest方法，禁用quest方法时相当于一个重新用Pytorch实现了后台attention计算的vllm离线调用。(核心代码在scripts/pred/quest_pytorch/quest_patch.py里）
 
 vllm类是用vllm离线调用实现的。
 
